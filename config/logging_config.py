@@ -9,7 +9,6 @@ def setup_logger(log_level=logging.INFO):
     Must be called ONCE at program start.
     """
 
-    # Ensure output directory exists
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     log_file = os.path.join(OUTPUT_DIR, "filing_fails.log")
@@ -19,8 +18,11 @@ def setup_logger(log_level=logging.INFO):
         format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
         handlers=[
             logging.FileHandler(log_file, mode="w", encoding="utf-8"),
-            logging.StreamHandler()  # console log
+            logging.StreamHandler()
         ]
     )
 
-    logging.getLogger(__name__).info("Logger initialized")
+    logger = logging.getLogger("sec_pipeline")  # ✅ LẤY LOGGER
+    logger.info("Logger initialized")           # ✅ GHI LOG
+    return logger                               # ✅ TRẢ LOGGER
+

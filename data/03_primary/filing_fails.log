@@ -1,0 +1,43 @@
+2025-12-30 01:05:12,627 | INFO | sec_pipeline | Logger initialized
+2025-12-30 01:05:14,919 | INFO | config.search_patterns | Loaded search patterns for filings: 10-K, EX-13, 10-Q, EX-99, 8-K
+2025-12-30 01:05:14,920 | INFO | extraction.batch_processor | Starting parallel extraction with 8 workers
+2025-12-30 01:05:14,922 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2025-04-23 00:00:00
+2025-12-30 01:05:14,923 | INFO | extraction.section_extractor | Processing TSLA | 10-K | 2025-01-30 00:00:00
+2025-12-30 01:05:14,926 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2024-10-24 00:00:00
+2025-12-30 01:05:14,928 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2024-07-24 00:00:00
+2025-12-30 01:05:14,931 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2024-04-24 00:00:00
+2025-12-30 01:05:14,935 | INFO | extraction.section_extractor | Processing TSLA | 10-K | 2024-01-29 00:00:00
+2025-12-30 01:05:14,939 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2023-10-23 00:00:00
+2025-12-30 01:05:14,940 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2023-07-24 00:00:00
+2025-12-30 01:05:17,445 | INFO | extraction.section_extractor | Processing TSLA | 10-Q | 2023-04-24 00:00:00
+2025-12-30 01:05:17,723 | INFO | extraction.section_extractor | Processing TSLA | 10-K | 2023-01-31 00:00:00
+2025-12-30 01:05:18,280 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2025-04-18 00:00:00
+2025-12-30 01:05:18,482 | INFO | extraction.section_extractor | Processing NFLX | 10-K | 2025-01-27 00:00:00
+2025-12-30 01:05:18,625 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2024-10-18 00:00:00
+2025-12-30 01:05:20,629 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2024-07-19 00:00:00
+2025-12-30 01:05:21,126 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2024-04-22 00:00:00
+2025-12-30 01:05:22,651 | INFO | extraction.section_extractor | Processing NFLX | 10-K | 2024-01-26 00:00:00
+2025-12-30 01:05:22,921 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2023-10-20 00:00:00
+2025-12-30 01:05:24,530 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2023-07-21 00:00:00
+2025-12-30 01:05:25,416 | INFO | extraction.section_extractor | Processing NFLX | 10-Q | 2023-04-21 00:00:00
+2025-12-30 01:05:25,868 | INFO | extraction.section_extractor | Processing NFLX | 10-K | 2023-01-26 00:00:00
+2025-12-30 01:05:26,098 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2025-01-29 00:00:00
+2025-12-30 01:05:27,004 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2024-10-30 00:00:00
+2025-12-30 01:05:27,362 | INFO | extraction.section_extractor | Processing MSFT | 10-K | 2024-07-30 00:00:00
+2025-12-30 01:05:29,247 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2024-04-25 00:00:00
+2025-12-30 01:05:29,451 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2024-01-30 00:00:00
+2025-12-30 01:05:29,861 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2023-10-24 00:00:00
+2025-12-30 01:05:31,731 | INFO | extraction.section_extractor | Processing MSFT | 10-K | 2023-07-27 00:00:00
+2025-12-30 01:05:38,036 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2023-04-25 00:00:00
+2025-12-30 01:05:42,518 | INFO | extraction.section_extractor | Processing MSFT | 10-Q | 2023-01-24 00:00:00
+2025-12-30 01:05:43,424 | INFO | extraction.section_extractor | Processing AMZN | 10-K | 2025-02-07 00:00:00
+2025-12-30 01:05:43,956 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2024-11-01 00:00:00
+2025-12-30 01:05:44,847 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2024-08-02 00:00:00
+2025-12-30 01:05:45,838 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2024-05-01 00:00:00
+2025-12-30 01:05:47,798 | INFO | extraction.section_extractor | Processing AMZN | 10-K | 2024-02-02 00:00:00
+2025-12-30 01:05:49,553 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2023-10-27 00:00:00
+2025-12-30 01:05:50,383 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2023-08-04 00:00:00
+2025-12-30 01:05:50,527 | INFO | extraction.section_extractor | Processing AMZN | 10-Q | 2023-04-28 00:00:00
+2025-12-30 01:05:50,806 | INFO | extraction.section_extractor | Processing AMZN | 10-K | 2023-02-03 00:00:00
+2025-12-30 01:05:58,700 | INFO | extraction.batch_processor | Extracted 38 sections successfully
+2025-12-30 01:05:58,727 | INFO | sec_pipeline | Saved 38 extracted sections

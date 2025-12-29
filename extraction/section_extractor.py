@@ -2,6 +2,7 @@
 import logging
 from documents.html_document import HtmlDocument
 from data_access.sec_client import safe_get
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -40,6 +41,21 @@ def process_filing(metadata, search_patterns):
         search_patterns=patterns  # ✅ BẮT BUỘC
     )
 
-    doc.get_excerpt(search_patterns=patterns)
-    return True
+    extracted_text = doc.get_excerpt(search_patterns=patterns)
+    
+    if not extracted_text:
+        logger.warning(f"No section extracted for {metadata.metadata_file_name}")
+        return None
+
+    return {
+        "cik": metadata.cik,
+        "ticker": metadata.ticker,
+        "form_type": metadata.form_type,
+        "filed_at": metadata.filed_at,
+        "accession_number": metadata.accession_number,
+        "section": metadata.section_name,
+        "content": extracted_text,
+        "extraction_method": metadata.extraction_method,
+        "warnings": json.dumps(metadata.warnings),
+    }
 
